@@ -41,7 +41,14 @@ Ensuite le terrarium régulera sa température en fonction de la consigne, la lu
 - Si l'option SiteWeb est activé,  en plus de l'application, un site web affichant les datas du terrarium est accessible sur l’IP du terrarium ou par son nom mdms:  
 **http://IP_du_terrarium** ou **http://freeterra.local**  
 - Si l'option Brumisateur est activé, dans l'application vous pourrez choisir le mode de fonctionnement du brumisateur.    
-En mode auto, le terrarium régulera l'humidité au point chaud en fonction de la consigne sinon, il ne fait rien, passer le en auto quand vous souhaiter remonter l'humidité puis rebasculer le en manuel.
+En mode auto, le terrarium régulera l'humidité au point chaud en fonction de la consigne sinon, il ne fait rien, passer le en auto quand vous souhaiter remonter l'humidité puis rebasculer le en manuel.  
+- Si l'option NiveauEau est activé,  vous disposé d'un switch flotteur, ou autre qui verifie le niveau d'eau.
+- Si l'option Sonnerie est activé, quand une alarme survient (lecture sonde HS, niveau d'eau trop bas, temp max ou min atteint) le terrarium sonne en plus de l'afficher sur l'appli et ou le site web.
+- Si l'option SMS est activé, si vous êtes chez Free mobile, quand une alarme survient (lecture sonde HS, niveau d'eau trop bas, temp max ou min atteint) vous recevrez un SMS. 
+
+
+Quand une erreur survient, et que vous resolvez le problème, il faut effacer l'alarme par l'application, elle n'apparait plus a l'affichage.  
+Tant qu'on a pas aquitter l'alarme le terrarium sonne si l'option est active, par contre vous ne recevrez qu'un seul SMS, il ne vous en renverra que s'il n'y a pas d'alarmes en cours.  
 
 
 
