@@ -34,8 +34,14 @@ S'il n'y en a pas, le terrarium sonnera, il attend de recevoir ses paramètres d
 Par l'application mobile FreeTerra, on lui envoie les paramètres, et les options présentes.
 
 
+Ensuite le terrarium régulera sa température en fonction de la consigne, la lumière s'allumera et s'éteindra aux heures paramétrées.
+
+
 - Si l'option PointFroid est activé, les datas de celle-ci seront affichées sinon elles ne seront pas présentes.  
 - Si l'option SiteWeb est activé,  en plus de l'application, un site web affichant les datas du terrarium est accessible sur l’IP du terrarium ou par son nom mdms:  
 **http://IP_du_terrarium** ou **http://freeterra.local**  
-- Si l'option Brumisateur est activé, dans l'application vous pourrez choisir le mode de fonctionnement du brumisateur.  
-En mode auto, le terrarium régulera l'humidité au point chaud en fonction de la consigne sinon, il ne fait rien, passer le en auto quand vous souhaiter remonter l'humidité puis rebasculer le en manuel 
+- Si l'option Brumisateur est activé, dans l'application vous pourrez choisir le mode de fonctionnement du brumisateur.    
+En mode auto, le terrarium régulera l'humidité au point chaud en fonction de la consigne sinon, il ne fait rien, passer le en auto quand vous souhaiter remonter l'humidité puis rebasculer le en manuel.
+
+
+
