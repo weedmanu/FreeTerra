@@ -29,10 +29,13 @@ Le terrarium génère **un site web** qui sert également à la consultation des
 
 Au démarrage du programme, il vérifie si un fichier de config est présent.
 S'il n'y en a pas, le terrarium sonnera, il attend de recevoir ses paramètres de fonctionnement.
+
+
 Par l'application mobile FreeTerra, on lui envoie les paramètres, et les options présentes.
+
 
 Ensuite le terrarium régulera sa température en fonction de la consigne, la lumière s'allumera et s'éteindra aux heures paramétrées.
 
+
 Si l'option PointFroid est activé, les datas de celle-ci seront affichées sinon elles ne seront pas présentes.
-Si l'option SiteWeb est activé, un site web affichant les datas du terrarium est accessible sur l’IP du terrarium ou par son nom mdms:
-  http://IP_du_terrarium ou http://freeterra.local
+Si l'option SiteWeb est activé, un site web affichant les datas du terrarium est accessible sur l’IP du terrarium ou par son nom mdms:   http://IP_du_terrarium ou http://freeterra.local
