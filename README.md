@@ -10,6 +10,7 @@ Le terrarium génère **un site web** qui sert également à la consultation des
 
 ## Le matériel nécessaire
 
+- Un NodeMCU ou une Wemos D1 (tout ce qui est équipé d'un ESP12)
 - Une sonde DHT22 ou 21 pour le point chaud         (Obligatoire)
 - Un relais pour le chauffage                       (Obligatoire)
 - Une sonde DHT22 ou 21 pour le point froid         (Optionnel)
@@ -18,4 +19,6 @@ Le terrarium génère **un site web** qui sert également à la consultation des
 - Un buzzer pour les alarmes                        (Optionnel)
 
 
-## Le fonctionnement
+## Le montage
+
+![le montage](montage.png)
