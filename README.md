@@ -48,4 +48,3 @@ En mode auto, le terrarium régulera l'humidité au point chaud en fonction de l
 Quand une erreur survient, et que vous resolvez le problème, il faut effacer l'alarme par l'application, elle n'apparait plus a l'affichage.  
 Concernant l'option Sonnerie et SMS si elle sont active :  
           Tant qu'on a pas aquitter l'alarme le terrarium sonne, par contre vous ne recevrez qu'un seul SMS, il ne vous en renverra que s'il n'y a pas d'alarmes en cours.  
-
