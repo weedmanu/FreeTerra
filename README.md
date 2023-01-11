@@ -18,7 +18,6 @@ Le terrarium génère **un site web** qui sert également à la consultation des
 - Un relais pour le brumisateur                     (Optionnel)
 - Un buzzer pour les alarmes                        (Optionnel mais recommandé)
 - Un flotteur(switch) pour le niveau d'eau          (Optionnel)
-
 - Un smartphone                                     (Obligatoire)
 
 ## Le montage
