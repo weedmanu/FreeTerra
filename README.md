@@ -1,8 +1,8 @@
 # FreeTerra
 
-## Terrarium connécté.  
+## Terrarium connécté
 
-Le programme du terrarium tourne sur une puce ESP12, donc soit sur un **NodeMCU**, soit une **Wemos D1** ou autre **board à base d'ESP12.**  
+Le programme du terrarium tourne sur une puce **esp8266**, donc soit sur un **NodeMCU**, soit une **Wemos D1** ou autre **board à base d'ESP12.**  
 
 Il est **couplé à une application mobile**, qui sert à configurer les differents paramètres du terrarium et de consulter les datas du terrarium.  
 
