@@ -31,6 +31,6 @@ Le terrarium génère **un site web** qui sert également à la consultation des
 - https://github.com/PaulStoffregen/Time
 - https://github.com/adafruit/Adafruit_Sensor
 - https://github.com/adafruit/DHT-sensor-library
-
+- https://github.com/weedmanu/RegulTerra
 
 ## Fonctionnement
