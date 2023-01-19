@@ -24,7 +24,13 @@ Le terrarium génère **un site web** qui sert également à la consultation des
 
 ![le montage](montage.png)
 
-## Fonctionnement
-
-
 ## Les librairies nécéssaires
+
+- https://github.com/gmag11/NtpClient  
+- https://github.com/me-no-dev/ESPAsyncUDP 
+- https://github.com/PaulStoffregen/Time
+- https://github.com/adafruit/Adafruit_Sensor
+- https://github.com/adafruit/DHT-sensor-library
+
+
+## Fonctionnement
