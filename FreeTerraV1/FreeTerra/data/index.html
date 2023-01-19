@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="Fr">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="\serpent_tete.png">
+		<title>FreeTerra</title>
+		<link rel="stylesheet" href="\index.css">
+		<script src="\RGraph.common.core.js"></script>
+		<script src="\RGraph.common.dynamic.js"></script>
+		<script src="\RGraph.gauge.js"></script>
+		<script src="\freeterra.js"></script>
+</head>
+<body>
+<header>
+    <h1>FreeTerra</h1>
+</header>
+
+
+<div class="wrapper">
+	<nav>
+		<div id="EPC" class="rouge">
+			<div class="conteneurET">
+				<img src="\serpent_C.png" style="width:42px;height:42px;"> <h4 class="rouge">Point Chaud</h4>  
+			</div>
+			<p>Température</p> 
+			<p id="tempC"></p>
+			<p>Humidité</p> 
+			<p id="humiC"></p>			
+		</div>
+		<div id="EPF" class="bleu">
+			<div class="conteneurET">  
+				<img src="\serpent_F.png" style="width:42px;height:42px;"> <h4 class="bleu">Point Froid</h4>
+			</div>
+			<p>Température</p> 
+			<p id="tempF"></p>
+			<p>Humidité</p> 
+			<p id="humiF"></p>			
+		</div>
+	</nav>
+
+	<section class="content">
+		<div class="conteneurJauge">
+			<div class="conteneurVjauge">
+				<h2 class="rouge">Point Chaud</h2>
+				<div class="conteneurHjauge">
+					<canvas id="JaugeTempChaud" width="250" height="250">[No canvas support]</canvas>
+					<canvas id="JaugeHumiChaud" width="250" height="250">[No canvas support]</canvas>
+				</div>
+			</div>
+
+			<div class="conteneurVjauge">
+				<h2 class="bleu">Point Froid</h2>
+				<div class="conteneurHjauge">
+					<canvas id="JaugeTempFroid" width="250" height="250">[No canvas support]</canvas>
+					<canvas id="JaugeHumiFroid" width="250" height="250">[No canvas support]</canvas>
+				</div>
+			</div>
+		</div>
+		<h2 class="jaune">Alarmes</h2>	
+		<div class="conteneurAlarme">				
+			<div class="conteneurValarme">
+				<div class="conteneurHalarme">
+					<p id="img_AlarmeEau"></p>
+					<p id="txt_AlarmeEau"></p>
+				</div>
+			</div>
+			<div class="conteneurValarme">
+				<div class="conteneurHalarme">
+					<p id="img_AlarmeTemp"></p>
+					<p id="txt_AlarmeTemp"></p>
+				</div>
+			</div>
+			<div class="conteneurValarme">
+				<div class="conteneurHalarme">
+					<p id="img_AlarmeSondePC"></p>
+					<p id="txt_AlarmeSondePC"></p>
+				</div>
+			</div>	
+			<div class="conteneurValarme">
+				<div class="conteneurHalarme">
+					<p id="img_AlarmeSondePF"></p>
+					<p id="txt_AlarmeSondePF"></p>
+				</div>
+			</div>	
+		</div> 	
+	</section>
+
+	<aside id="config">
+		<div class="rouge">
+			<h4>Température</h4>
+			<p>Consigne actuelle</p> 
+			<p id="TargetTemp"></p>
+			<p>Hystérésis</p>
+			<p>+ ou - <span id="HysTemp"></p>		
+			<p>Consigne jour</p>
+			<p id="TargetTempJ"></p>		
+			<p>Consigne nuit</p>
+			<p id="TargetTempN"></p>		
+			<p>Alarme Temp max</p>
+			<p id="TempMax"></p>	
+			<p>Alarme Temp min</p>
+			<p id="TempMin"></p>
+		</div>
+		<div class="bleu">
+			<h4>Humidité</h4>		
+			<p>Consigne actuelle</p>		
+			<p id="TargetHumi"></p>
+			<p>Hystérésis</p>
+			<p>+ ou - <span id="HysHumi"></p>	
+		</div>
+		<div class="jaune">
+			<h4>Lumière</h4>		
+			<p>Lever: <span id="Lever"></span></p>
+			<p>Coucher :<span id="Coucher"></span></p>
+		</div>
+	</aside>
+</div> <!-- /wrapper -->
+
+<footer>
+	<div id="instant"></div>
+</footer>
+
+</body>
+</html>
