@@ -10,15 +10,15 @@ Le terrarium génère **un site web** qui sert également à la consultation des
 
 ## Le matériel nécessaire
 
-- Un smartphone                                     (Obligatoire)
-- Un NodeMCU ou une Wemos D1                        (Obligatoire)
-- Un relais pour la lumière                         (Obligatoire)
-- Une sonde DHT22 ou 21 pour le point chaud         (Obligatoire)
-- Un relais pour le chauffage                       (Obligatoire)
-- Un buzzer pour les alarmes                        (Obligatoire)
-- Une sonde DHT22 ou 21 pour le point froid         (Obligatoire)
-- Un relais pour le brumisateur                     (Obligatoire)
-- Un flotteur(switch) pour le niveau d'eau          (Obligatoire)
+- Un smartphone                                     
+- Un NodeMCU ou une Wemos D1                        
+- Un relais pour la lumière                         
+- Une sonde DHT22 ou 21 pour le point chaud         
+- Un relais pour le chauffage                       
+- Un buzzer pour les alarmes                        
+- Une sonde DHT22 ou 21 pour le point froid         
+- Un relais pour le brumisateur                     
+- Un flotteur(switch) pour le niveau d'eau          
 
 ## Le montage
 
@@ -35,6 +35,24 @@ Le terrarium génère **un site web** qui sert également à la consultation des
 
 ## Fonctionnement
 
+Au premier démarrage, le programme attend de recevoir sa configuration par le smartphone, il sonne en attendant de la recevoir.    
+
+Une fois que l'on a envoyer les paramètres de températures , de l'éclairage etc.. le programme régule la température et gère l'éclairage.
+
+Il génère un site web qui sert a visualiser les datas du terrarium :
+
+![Page datas](AppData.png)
+
+
+
+
+
+
+
+
+
+
+ elles sont également visible sur l'application.
 
 ## l'application pour smartphone
 
