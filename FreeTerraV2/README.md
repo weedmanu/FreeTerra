@@ -45,7 +45,7 @@ Il génère un site web qui sert a visualiser les datas du terrarium :
 
  elles sont également visible sur l'application :
 
-<img src="AppData.png" width="50" height="150" />
+<img src="AppData.png" width="200" height="600" />
 
 ## l'application pour smartphone
 
