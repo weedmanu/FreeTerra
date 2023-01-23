@@ -41,7 +41,7 @@ Une fois que l'on a envoyer les paramètres de températures , de l'éclairage e
 
 Il génère un site web qui sert a visualiser les datas du terrarium :
 
-![SiteWebV2](SiteWebV2.jpg)
+![SiteWebV2](SiteWebV2.png)
 
 
 
