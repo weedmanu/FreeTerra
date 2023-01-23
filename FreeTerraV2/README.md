@@ -35,7 +35,11 @@ Le terrarium génère **un site web** qui sert également à la consultation des
 
 ## Fonctionnement
 
-Au premier démarrage, le programme attend de recevoir sa configuration par le smartphone, il sonne en attendant de la recevoir.    
+Au premier démarrage, le programme attend de recevoir sa configuration par le smartphone :
+
+![AppData](AppConf.png) ![AppData](AppConf2.png)
+
+il sonne en attendant de la recevoir.    
 
 Une fois que l'on a envoyer les paramètres de températures , de l'éclairage etc.. le programme régule la température et gère l'éclairage.
 
@@ -46,8 +50,6 @@ Il génère un site web qui sert a visualiser les datas du terrarium :
  elles sont également visible sur l'application :
 
 ![AppData](AppData.png)
-![AppData](AppConf.png)
-![AppData](AppConf2.png)
 
 ## l'application pour smartphone
 
