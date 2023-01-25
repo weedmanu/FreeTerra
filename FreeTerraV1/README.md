@@ -40,7 +40,7 @@ Le terrarium génère **un site web** qui sert également à la consultation des
 
 Au premier démarrage, le programme attend de recevoir sa configuration par le smartphone :
 
-![AppData](AppConf.png) ![AppData](AppConf1.png)
+![AppData](AppConf.jpg) ![AppData](AppConf1.jpg)
 
 il sonne en attendant de la recevoir.    
 
@@ -52,7 +52,7 @@ Il génère un site web qui sert a visualiser les datas du terrarium :
 
  elles sont également visible sur l'application :
 
-![AppData](AppData.png)
+![AppData](AppData.jpg)
 
 
 
