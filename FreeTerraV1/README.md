@@ -8,6 +8,8 @@ Il est **couplé à une application mobile**, qui sert à configurer les differe
 
 Le terrarium génère **un site web** qui sert également à la consultation des datas du terrarium.  
 
+
+
 ## Le matériel nécessaire
 
 - Un smartphone                                     
@@ -17,6 +19,7 @@ Le terrarium génère **un site web** qui sert également à la consultation des
 - Un relais pour le chauffage                       
 - Un buzzer pour les alarmes                        
 - Une sonde DHT22 ou 21 pour le point froid         
+
 
 ## Le montage
 
@@ -31,13 +34,25 @@ Le terrarium génère **un site web** qui sert également à la consultation des
 - https://github.com/adafruit/DHT-sensor-library
 - https://github.com/weedmanu/RegulTerra
 
+
+
 ## Fonctionnement
 
-Au premier démarrage, le programme attend de recevoir sa configuration par le smartphone, il sonne en attendant de la recevoir.    
+Au premier démarrage, le programme attend de recevoir sa configuration par le smartphone :
+
+![AppData](AppConf.png) ![AppData](AppConf1.png)
+
+il sonne en attendant de la recevoir.    
 
 Une fois que l'on a envoyer les paramètres de températures , de l'éclairage etc.. le programme régule la température et gère l'éclairage.
 
-Il génère un site web qui sert a visualiser les datas du terrarium, elles sont également visible sur l'application.
+Il génère un site web qui sert a visualiser les datas du terrarium :
+
+![SiteWebV2](SiteWebV1.png)
+
+ elles sont également visible sur l'application :
+
+![AppData](AppData.png)
 
 
 
