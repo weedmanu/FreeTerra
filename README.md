@@ -8,19 +8,8 @@ Il est **couplé à une application mobile**, qui sert à configurer les differe
 
 Le terrarium génère **un site web** qui sert également à la consultation des datas du terrarium.  
 
-## Le matériel nécessaire
-
-- Un smartphone                                     (Obligatoire)
-- Un NodeMCU ou une Wemos D1                        (Obligatoire)
-- Un relais pour la lumière                         (Obligatoire)
-- Une sonde DHT22 ou 21 pour le point chaud         (Obligatoire)
-- Un relais pour le chauffage                       (Obligatoire)
-- Un buzzer pour les alarmes                        (Obligatoire)
-- Une sonde DHT22 ou 21 pour le point froid         (Optionnel)
-- Un relais pour le brumisateur                     (Optionnel)
-- Un flotteur(switch) pour le niveau d'eau          (Optionnel)
-
 ## Exemples
 
-- [FreeTerraV1](/FreeTerraV1)
-- [FreeTerraV2](/FreeTerraV2)
+- [FreeTerraV1](/FreeTerraV1) (Gestion de la lumière, d'un point chaud régulé en température et un point froid)
+- [FreeTerraV2](/FreeTerraV2) (Gestion de la lumière, d'un point chaud régulé en température et humidité et un point froid)
+
