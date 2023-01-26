@@ -12,4 +12,3 @@ Le terrarium génère **un site web** qui sert également à la consultation des
 
 - [FreeTerraV1](/FreeTerraV1) (Gestion de la lumière, d'un point chaud régulé en température et un point froid)
 - [FreeTerraV2](/FreeTerraV2) (Gestion de la lumière, d'un point chaud régulé en température et humidité et un point froid)
-

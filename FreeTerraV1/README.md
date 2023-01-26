@@ -41,3 +41,7 @@ Elles sont également visible sur l'application :
 ![AppData](AppData.jpg)
 
 Le terrarium sonne quand il y a un problème et le défaut s'affiche sur le site web ou l'application.
+
+## wiki
+
+Consulter le [wiki](https://github.com/weedmanu/FreeTerra/wiki) si vous n'êtes pas à l'aise avec la programmation des cartes de type ESP.

@@ -50,3 +50,7 @@ Il génère un site web qui sert a visualiser les datas du terrarium :
  elles sont également visible sur l'application :
 
 ![AppData](AppData.png)
+
+## wiki
+
+Consulter le [wiki](https://github.com/weedmanu/FreeTerra/wiki) si vous n'êtes pas à l'aise avec la programmation des cartes de type ESP.
