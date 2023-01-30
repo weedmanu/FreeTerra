@@ -380,7 +380,7 @@ void setup() {
 }
 
 void loop() {    
-  serveur.handleClient();
+  serveur.handleClient();                       // on écoute en boucle
   ArduinoOTA.handle();                          // on écoute en boucle
   
   if (wifiFirstConnected) {

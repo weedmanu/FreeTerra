@@ -9,6 +9,8 @@
 #include <NtpClientLib.h> // https://github.com/gmag11/NtpClient  nécessite https://github.com/me-no-dev/ESPAsyncUDP et https://github.com/PaulStoffregen/Time
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
+#include <ArduinoOTA.h>
+#include <ESP8266mDNS.h>
 #include <DHT.h>              // https://github.com/adafruit/DHT-sensor-library
 #include <FS.h>           
 #include "login.h"
@@ -53,11 +55,9 @@ unsigned long lastmillis = 0;
 boolean syncEventTriggered = false;   // vrai si un event arrive
 NTPSyncEvent_t ntpEvent;              // dernier event reçu
 bool Flag_Init = true;
-bool Flag_Alarme_Sonde_PC = false;
-bool Flag_Alarme_Sonde_PF = false;
-bool Flag_Alarme_Temp_Min = false;
-bool Flag_Alarme_Temp_Max = false;
-bool Flag_Alarme_Niveau_Eau = false;
+bool Flag_Alarme_Sonde_PC, Flag_Alarme_Sonde_PF, Flag_Alarme_Temp_Min, Flag_Alarme_Temp_Max, Flag_Alarme_Niveau_Eau = false;
+bool Etat_Lum, Etat_Chauff = false;
+
 String date, heure;
 
 void onSTAConnected (WiFiEventStationModeConnected ipInfo) {
@@ -392,15 +392,20 @@ void setup() {
   serveur.on("/data_config", envoyer_config);                   // on associe la fonction affiche_config au chemin IP/data_config   
   serveur.onNotFound(handleWebRequests);
   serveur.begin();
-
+  
+  ArduinoOTA.setPort(8266);                     // le port de transmission   
+  ArduinoOTA.setHostname(HOST);                 // on donne un nom au port réseau  
+  ArduinoOTA.begin();                           // on démarre le port réseau
+  
   e1 = WiFi.onStationModeGotIP (onSTAGotIP);										// Dès que le WiFi est connecté, démarrez le client NTP
   e2 = WiFi.onStationModeDisconnected (onSTADisconnected);
   e3 = WiFi.onStationModeConnected (onSTAConnected);
   load_from_file("/config.csv");
 }
 
-void loop() {    
-  serveur.handleClient();
+void loop() {      
+  ArduinoOTA.handle();                          // on écoute en boucle
+  serveur.handleClient();                       // on écoute en boucle
   
   if (wifiFirstConnected) {
       wifiFirstConnected = false;
